@@ -20,10 +20,13 @@ A simple and interactive **command-line based contact manager** built using Pyth
 
 ```bash
 python TDMS.py
-📋 Menu Options
-markdown
-Copy
-Edit
+```
+
+---
+
+## 📋 Menu Options
+
+```
 1. Add Contact
 2. View Contacts
 3. Search Contact
@@ -31,38 +34,52 @@ Edit
 5. Delete Contact
 6. Export Contacts to CSV
 7. Exit
-🗂️ File Structure
-graphql
-Copy
-Edit
+```
+
+---
+
+## 🗂️ File Structure
+
+```
 TDMS/
 ├── TDMS.py                    # Main program file
 ├── telephone_directory.dat    # Stores contact data (auto-created)
 └── telephone_directory.csv    # Optional CSV export file
-🧩 Requirements
+```
+
+---
+
+## 🧩 Requirements
+
 This project uses only standard Python libraries:
+- `pickle`
+- `csv`
 
-pickle
+> ✅ No external packages needed
 
-csv
+---
 
-✅ No external packages needed
+## 📤 CSV Export Example
 
-📤 CSV Export Example
-csv
-Copy
-Edit
+```csv
 Name,Phone,Email
 Alice,9876543210,alice@example.com
 Bob,9123456789,bob@example.com
-📚 Future Enhancements
-GUI with Tkinter or PyQt
+```
 
-Input validation
+---
 
-Backup/restore features
+## 📚 Future Enhancements
 
-Contact categories and tags
+- GUI with Tkinter or PyQt
+- Input validation
+- Backup/restore features
+- Contact categories and tags
 
-📄 License
+---
+
+## 📄 License
+
 This project is free to use for learning and personal use.
+
+---
